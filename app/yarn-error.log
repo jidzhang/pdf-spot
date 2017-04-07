@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/Cellar/node@6/6.10.1/bin/node /usr/local/bin/yarn add pdfjs-dist
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zhangjidong/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/opt/node@6/bin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.10.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "my-project",
+    "version": "0.0.0",
+    "description": "An electron-vue project",
+    "main": "./dist/main.js",
+    "dependencies": {
+      "element-ui": "^1.2.7",
+      "fabric": "^1.7.9",
+      "vue": "^2.1.10",
+      "vue-electron": "^1.0.6",
+      "vue-resource": "^1.0.3",
+      "vue-router": "^2.1.2",
+      "vuex": "^2.1.1"
+    },
+    "devDependencies": {},
+    "author": "Jidong Zhang <545628606[AT]qq.com>"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/zhangjidong/Projects/Web/vue/my-project/app/node_modules/acorn-globals'
+      at Error (native)

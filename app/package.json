@@ -1,0 +1,19 @@
+{
+  "name": "pdf-see",
+  "version": "0.0.2",
+  "description": "An electron-vue project",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "element-ui": "^1.2.7",
+    "fabric": "^1.7.9",
+    "jquery": "^3.2.1",
+    "pdfjs-dist": "^1.7.401",
+    "vue": "^2.1.10",
+    "vue-electron": "^1.0.6",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.2",
+    "vuex": "^2.1.1"
+  },
+  "devDependencies": {},
+  "author": "Jidong Zhang <545628606[AT]qq.com>"
+}

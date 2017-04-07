@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>my-project</title>
+    <% if (htmlWebpackPlugin.options.appModules) { %>
+    <!-- Add `app/node_modules` to global paths so `require` works properly in development -->
+    <script>
+        require('module').globalPaths.push('<%= htmlWebpackPlugin.options.appModules.replace(/\\/g, '\\\\') %>')
+    </script>
+    <% } %>
+
+    <script src="./assets/pdfjs-dist/pdf.js"></script>
+    <script src="./assets/jquery.js"></script>
+    <script src="./assets/fabric.js"></script>
+    <link rel="stylesheet" href="./assets/grab-to-pan/grab-to-pan.css">
+    <script src="./assets/grab-to-pan/grab-to-pan.js"></script>
+</head>
+<body>
+
+<div id="app"></div>
+<!-- webpack builds are automatically injected -->
+</body>
+
+</html>
